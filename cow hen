@@ -1,0 +1,5 @@
+legs=16
+head=6
+for cow in range(heads):
+    if cow*4 and hen*2 ==legs:
+        
