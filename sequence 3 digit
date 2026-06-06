@@ -1,0 +1,9 @@
+n=int(input("Enter a 3 digit number:"))
+a=str(n)
+if int(a[0])== int(a[1])-1==int(a[2])-2 or int(a[2])==int(a[1])-1==int(a[0])-2:
+    print("valid")
+else:
+    print("invalid")
+    
+
+  
