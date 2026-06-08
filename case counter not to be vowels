@@ -1,0 +1,11 @@
+ch=input("Enter a single character: ")
+ucount=0
+lcount=0
+while(ch not in "A E I O U a e i o u "):
+    ch=input("Enter a single character: ")
+    if ch.isupper():
+        ucount+=1
+    if ch.islower():
+        lcount+=1
+print("number of upper case:",ucount)
+print("number of lower case:",lcount)
