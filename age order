@@ -1,0 +1,7 @@
+names=['gill','rutu','dhoni','virat','jamie']
+age=[30,98,77,52,23]
+for i in range (5):
+    b=sorted(zip(age,names))
+    print("{}.{} age is {}".format(i+1,b[i][1], b[i][0]))
+    
+print(b)
